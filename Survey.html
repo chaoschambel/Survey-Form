@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <main>
+        <h1>Member Survey Form</h1>
+        <div class="form-rows"><label type="text" >First Name</label></div>
+        <input type="text" class="field" name="input" placeholder="First Name" required><br><br>
+        <div class="form-rows"><label type="text">Last Name</label></div>
+        <input type="text" class="field" name="input" placeholder="Last Name" required><br><br>
+        <div class="form-rows"><label type="text">Date of Birth</label></div>
+        <input type="date" class="field" name="input"><br><br>
+        <div class="form-rows"><label type="text">Email Address</label></div>
+        <input type="text" class="field" name="input"><br><br>
+        <div class="form-rows"><label type="text">Gender</label></div>
+        <select class="dropdown" name="dropdown">
+            <option name="Male">Male</option>
+            <option name="Female">Female</option>
+            <option name="other">Other</option>    
+        </select><br><br>
+        <div class="form-rows"><label type="text">Hobbies</label></div>
+        <ul type="checkbox" name="input">
+        <li class="radio">
+            <label>
+                <input  type="checkbox">Sports</input>
+            </label>
+        </li>
+        <li class="radio">
+            <label>
+                <input  type="checkbox">Music</input>
+            </label>
+        </li>
+        <li class="radio">
+            <label>
+                <input  type="checkbox">Visual Arts</input>
+            </label>
+        </li>
+        <li class="radio">
+            <label>
+                <input  type="checkbox">Games</input>
+            </label>
+        </li>
+        <li class="radio">
+            <label>
+                <input  type="checkbox">Other</input>
+            </label>
+        </li>
+        </ul><br><br>
+        <div class="form-rows"><label>Please write anything that describe about you!</label>
+        <textarea type="input" class="field" placeholder="Type Here!"></textarea></div>
+        <button type="submit">Submit</button>
+    </main>
+    </body>
+</html>

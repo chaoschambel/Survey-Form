@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+main{
+    height: auto;
+    width: 400px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5%;
+}
+.field, .dropdown{
+    border: 2px solid rgb(148, 161, 161);
+}
